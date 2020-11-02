@@ -1,0 +1,6 @@
+PID Hotend M303 H1 S240
+PID Cama M303 H0 S70
+Luego M500 para guardar o M307 H1 para ver los valores
+
+Sensor de filamento
+M591 D0 P2 C3 S1

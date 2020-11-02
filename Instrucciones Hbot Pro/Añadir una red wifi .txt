@@ -1,0 +1,31 @@
+Podemos añadir una red wifi nueva a nuestra placa de dos maneras:
+
+Mediante Gcode (Si tenemos acceso al panel web de la placa)
+
+Simplemente en el menu web vamos a console y en send code ponemos:
+
+M587 S"nombre_de_red" P"password_de_red"
+
+Duet Wifi solo es compatible con redes de 2.4Ghz
+
+
+-----------------
+
+Conectando la placa a USB
+
+Podemos conectar la placa al USB y conectarnos a ella mediante cualquier software compatible
+(Cura,Prusa slicer, repetier host, simplify, YAT etc..)
+
+Enviaremos el siguiente gcode:
+
+M587 S"nombre_de_red" P"password_de_red"
+
+
+--------------
+
+
+Para mas información sobre como conectar la placa a la red:
+
+https://duet3d.dozuki.com/Guide/1.)+Getting+Connected+to+your+Duet/7
+
+
