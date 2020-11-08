@@ -175,5 +175,16 @@ Base caliente a 24V (Temperatura máxima 110º-120º)
 [3DEspana.com](https://3despana.com)
 
 ## Videos
-
+Presentación
 [Youtube] (https://youtu.be/CTP1-fysIOw)
+
+Presentacion Hbot XL 
+[Youtube] (https://youtu.be/yqlnOjQYD-E)
+
+## Videos Manuales tutoriales
+Manual de como calibrar el OFFSET
+[Youtube] (https://youtu.be/fizcIWx3F3U)
+
+Manual Desmontar extrusor
+[Youtube] (https://youtu.be/Jr3bt5Bu2t4)
+
