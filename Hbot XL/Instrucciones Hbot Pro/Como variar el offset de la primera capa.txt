@@ -1,0 +1,42 @@
+La impresora 3D Hbot, lleva un sensor inductivo para la nivelacion y final de carrera del eje Z
+Este tipo de sensores son sensibles a la temperatura y varian la precisión en funcion de la misma
+
+Para asegurarnos que nuestra primera capa siempre queda a la misma altura independientemente del material
+que estemos imprimiendo es recomendable precalentar la cama a 50º antes de hacer un G28 o bien pulsar en el panel (Macros / Precalentar) (Duracion de macro 90seg) Este macro precalienta la cama y despues hace un G28 dejando la medicion exacta al mapa G29 y dejando lista la impresora para imprimir
+*Temperatura de referencia 50º
+
+
+¿Como variar el offset si la primera capa está muy pegada o muy suelta?
+
+Si vemos que nuestra primera capa está muy despegada o demasiado pegada a la base tenemos dos formas de corregirlo:
+
+- Desde el panel mientras está imprimiendo pulsando el boton (Baby Step)
+Se despliega un menú donde podemos corregir la primera capa en vivo con las flechas arriba y abajo
+*Una vez reinicia la impresora este valor se pierde
+(Este ajuste es solo para salir de un apuro o pequeñas correcciones en la primera capa)
+
+
+-Ajusta el Z offset desde la configuracion:
+Desde nuestro menu web de duet pulsando en (System) y luego en config.g se abre un archivo de texto, en este archivo podemos encontrar toda la configuración de la maquina y tambien variar el offset de manera que se guarde en la memoria
+
+Para cambiar el offse buscaremos las lineas:
+; Z-Probe
+M574 Z1 S2                     ; Set endstops controlled by probe
+M558 P5 I1 H5 F300 T6000          ; Set Z probe type to ultrasonic and the dive height + speeds
+G31 P500 X-25 Y3 Z2.10       ; Set Z probe trigger value, offset and trigger height
+M557 X10:300 Y15:210 S60       ; Define mesh grid
+
+--------------------------
+
+Nos centramos en la linea: G31 P500 X-25 Y3 Z2.10
+
+Y luego en el valor Z2.10 (Este es nuestro offset)(Diferente en cada maquina)
+
+Si aumentamos 0.10 este valor la primera capa se pegará 0.10mm mas
+Si disminuimos 0.10 este valor la primera capa se despegara 0.10mm mas
+
+Una vez ajustado el offset vamos arriba a la izquierda pulsamos SAVE, acto seguido la pulsamos yes para que reinicie la maquina y nuestro nuevo valor estará guardado
+
+
+*El offset debe ajustarse si se desmonta el extrusor, se desmonta o mueve el sensor inductivo, o se cambia el nozzle o esparrago
+

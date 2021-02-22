@@ -1,0 +1,8 @@
+Para actualizar el mapa de nuestra cama desde el panel o interfaz web
+
+Pulsamos en macros / Hacer mapa G29
+
+Acto seguido la impresora se precalienta y hará un mapa nuevo de la cama para despues guardarlo en la memoria
+
+*Tiempo del macro aprox 180 segundos
+
