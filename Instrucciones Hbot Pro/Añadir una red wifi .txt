@@ -1,14 +1,5 @@
 Podemos añadir una red wifi nueva a nuestra placa de dos maneras:
 
-Mediante Gcode (Si tenemos acceso al panel web de la placa)
-
-Simplemente en el menu web vamos a console y en send code ponemos:
-
-M587 S"nombre_de_red" P"password_de_red"
-
-Duet Wifi solo es compatible con redes de 2.4Ghz
-
-
 -----------------
 
 Conectando la placa a USB
@@ -18,7 +9,31 @@ Podemos conectar la placa al USB y conectarnos a ella mediante cualquier softwar
 
 Enviaremos el siguiente gcode:
 
+M552 S-1   (Apaga la tarjeta wifi)
+
+M552 S0  (Ponemos la tarjeta en modo idle para que admita conexiones)
+
+M587 S"nombre_de_red" P"password_de_red"  (con esto añadimos nuestra red)
+
+M552 S1  (Activamos de nuevo la tarjeta red)
+
+Un vez activada la red, el programa nos deolverá el IP de conexion, tambien al reiniciar la impresora podemos ver en la consola de la pantalla nuestra IP
+
+O bien poniendo en la consola M552 nos mostrará a la red que esta conectada la impresora y el IP de la misma
+
+
+
+------------
+
+
+
+Mediante Gcode (Si tenemos acceso al panel web de la placa)
+
+Simplemente en el menu web vamos a console y en send code ponemos:
+
 M587 S"nombre_de_red" P"password_de_red"
+
+Duet Wifi solo es compatible con redes de 2.4Ghz
 
 
 --------------
