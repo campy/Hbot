@@ -43,7 +43,7 @@ M591 D0 P2 C2 S0                  ; Filament Sensor
 M574 Z1 S2                     ; Set endstops controlled by probe
 M558 P5 I1 H5 F300 T6000          ; Set Z probe type to ultrasonic and the dive height + speeds
 G31 P500 X-25 Y3 Z3.30       ; Set Z probe trigger value, offset and trigger height
-M557 X10:320 Y5:320 S45       ; Define mesh grid
+M557 X10:320 Y5:320 S95       ; Define mesh grid
 
 ; Heaters
 M307 H0 B0 S1.00               ; Disable bang-bang mode for the bed heater and set PWM limit

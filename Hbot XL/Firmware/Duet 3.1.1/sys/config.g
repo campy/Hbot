@@ -43,7 +43,7 @@ M591 D0 P2 C"e0_stop" S0        ; Filament Sensor a E0 Endstop
 ; Z-Probe
 M558 P5 C"!zprobe.in" H5 F300 T6000          ; Set Z probe type to ultrasonic and the dive height + speeds
 G31 P500 X-25 Y3 Z2.10       ; Set Z probe trigger value, offset and trigger height
-M557 X10:310 Y5:208 S45       ; Define mesh grid
+M557 X10:310 Y5:208 S95       ; Define mesh grid
 
 ; Heaters
 M308 S0 P"bedtemp" Y"thermistor" T100000 B3950         ; configure sensor 0 as thermistor on pin bedtemp
