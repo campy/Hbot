@@ -28,7 +28,7 @@ M92 X80 Y80 Z400 E415       ; Set steps per mm
 M566 X500 Y500 Z60 E600        ; Set maximum instantaneous speed changes (mm/min)
 M203 X18000 Y18000 Z800 E4800    ; Set maximum speeds (mm/min)
 M201 X2000 Y2000 Z400 E1200     ; Set accelerations (mm/s^2)
-M906 X1200 Y1200 Z1000 E760 I30   ; Set motor currents (mA) and motor idle factor in per cent
+M906 X1000 Y1000 Z1000 E760 I30   ; Set motor currents (mA) and motor idle factor in per cent
 M84 S30                        ; Set idle timeout
 
 ; Axis Limits
@@ -42,10 +42,9 @@ M591 D0 P2 C2 S0                  ; Filament Sensor
 ; Z-Probe
 M574 Z1 S2                     ; Set endstops controlled by probe
 M558 P1 H5 F200 T9000 I0 R0.5    ; Set Z probe type mini ir sensor
-G31 P500 X18 Y-38 Z3.30       ; Set Z probe trigger value, offset and trigger height
-M557 X10:320 Y5:320 S95       ; Define mesh grid
+G31 P500 X18 Y-38 Z1.35       ; Set Z probe trigger value, offset and trigger height
+M557 X20:315 Y1:325 S140
 
-; Heaters
 M307 H0 B0 S1.00               ; Disable bang-bang mode for the bed heater and set PWM limit
 M305 P0 T100000 B3950 C0 R4700 ; Set thermistor + ADC parameters for heater 0
 M143 H0 S120                   ; Set temperature limit for heater 0 to 120C

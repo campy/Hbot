@@ -8108,3 +8108,447 @@ power up + 00:00:01 WiFi module started
 power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.132
 power up + 00:00:08 HTTP client 192.168.2.2 login succeeded
 2020-06-02 00:07:41 Date and time set at power up + 00:00:08
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:10 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:04:20 Warning: Skipping grid point (10.0, 5.0) because Z probe cannot reach it
+power up + 00:04:42 Warning: Skipping grid point (10.0, 100.0) because Z probe cannot reach it
+power up + 00:04:42 Warning: Skipping grid point (10.0, 195.0) because Z probe cannot reach it
+power up + 00:04:53 Warning: Skipping grid point (295.0, 290.0) because Z probe cannot reach it
+power up + 00:04:53 Warning: Skipping grid point (200.0, 290.0) because Z probe cannot reach it
+power up + 00:04:53 Warning: Skipping grid point (105.0, 290.0) because Z probe cannot reach it
+power up + 00:04:53 Warning: Skipping grid point (10.0, 290.0) because Z probe cannot reach it
+power up + 00:04:53 9 points probed, min error -0.212, max error 0.283, mean 0.056, deviation 0.161
+Height map saved to file heightmap.csv
+power up + 00:05:33 HTTP client 192.168.2.2 login succeeded
+2021-04-04 14:43:58 Date and time set at power up + 00:05:33
+2021-04-04 14:46:02 Warning: Skipping grid point (10.0, 5.0) because Z probe cannot reach it
+2021-04-04 14:46:24 Warning: Skipping grid point (10.0, 100.0) because Z probe cannot reach it
+2021-04-04 14:46:24 Warning: Skipping grid point (10.0, 195.0) because Z probe cannot reach it
+2021-04-04 14:46:35 Warning: Skipping grid point (295.0, 290.0) because Z probe cannot reach it
+2021-04-04 14:46:35 Warning: Skipping grid point (200.0, 290.0) because Z probe cannot reach it
+2021-04-04 14:46:35 Warning: Skipping grid point (105.0, 290.0) because Z probe cannot reach it
+2021-04-04 14:46:35 Warning: Skipping grid point (10.0, 290.0) because Z probe cannot reach it
+2021-04-04 14:46:35 9 points probed, min error -0.212, max error 0.310, mean 0.067, deviation 0.171
+Height map saved to file heightmap.csv
+2021-04-04 14:46:46 HTTP client 192.168.2.2 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:19:58 Date and time set at power up + 00:00:07
+2021-04-04 18:22:14 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:22:24 Date and time set at power up + 00:00:07
+2021-04-04 18:27:34 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:27:45 Date and time set at power up + 00:00:07
+2021-04-04 18:28:33 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:29:43 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:08 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:29:53 Date and time set at power up + 00:00:08
+2021-04-04 18:30:28 Warning: Skipping grid point (1.0, 40.0) because Z probe cannot reach it
+2021-04-04 18:30:49 Warning: Skipping grid point (1.0, 135.0) because Z probe cannot reach it
+2021-04-04 18:30:49 Warning: Skipping grid point (1.0, 230.0) because Z probe cannot reach it
+2021-04-04 18:31:00 Warning: Skipping grid point (286.0, 325.0) because Z probe cannot reach it
+2021-04-04 18:31:00 Warning: Skipping grid point (191.0, 325.0) because Z probe cannot reach it
+2021-04-04 18:31:00 Warning: Skipping grid point (96.0, 325.0) because Z probe cannot reach it
+2021-04-04 18:31:00 Warning: Skipping grid point (1.0, 325.0) because Z probe cannot reach it
+2021-04-04 18:31:00 9 points probed, min error -0.067, max error 0.260, mean 0.074, deviation 0.101
+Height map saved to file heightmap.csv
+2021-04-04 18:33:36 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:10 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:33:30 Date and time set at power up + 00:00:10
+2021-04-04 18:33:45 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:34:06 Warning: Skipping grid point (1.0, 40.0) because Z probe cannot reach it
+2021-04-04 18:34:19 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:08 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:08 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:34:15 Date and time set at power up + 00:00:08
+2021-04-04 18:34:15 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:39:15 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:09 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:39:25 Date and time set at power up + 00:00:09
+2021-04-04 18:39:41 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:40:15 Warning: Skipping grid point (1.0, 40.0) because Z probe cannot reach it
+2021-04-04 18:40:36 Warning: Skipping grid point (1.0, 136.0) because Z probe cannot reach it
+2021-04-04 18:40:37 Warning: Skipping grid point (1.0, 232.0) because Z probe cannot reach it
+2021-04-04 18:40:47 Warning: Skipping grid point (308.0, 328.0) because Z probe cannot reach it
+2021-04-04 18:40:47 Warning: Skipping grid point (205.7, 328.0) because Z probe cannot reach it
+2021-04-04 18:40:47 Warning: Skipping grid point (103.3, 328.0) because Z probe cannot reach it
+2021-04-04 18:40:47 Warning: Skipping grid point (1.0, 328.0) because Z probe cannot reach it
+2021-04-04 18:40:47 9 points probed, min error -0.067, max error 0.210, mean 0.081, deviation 0.085
+Height map saved to file heightmap.csv
+2021-04-04 18:41:22 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:10 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:41:16 Date and time set at power up + 00:00:10
+2021-04-04 18:41:17 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:42:18 Warning: Skipping grid point (308.0, 328.0) because Z probe cannot reach it
+2021-04-04 18:42:18 Warning: Skipping grid point (212.0, 328.0) because Z probe cannot reach it
+2021-04-04 18:42:18 Warning: Skipping grid point (116.0, 328.0) because Z probe cannot reach it
+2021-04-04 18:42:18 Warning: Skipping grid point (20.0, 328.0) because Z probe cannot reach it
+2021-04-04 18:42:18 12 points probed, min error -0.128, max error 0.335, mean 0.129, deviation 0.139
+Height map saved to file heightmap.csv
+2021-04-04 18:43:07 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:31 Warning: Skipping grid point (10.0, 10.0) because Z probe cannot reach it
+power up + 00:00:53 Warning: Skipping grid point (10.0, 116.0) because Z probe cannot reach it
+power up + 00:00:53 Warning: Skipping grid point (10.0, 222.0) because Z probe cannot reach it
+power up + 00:01:04 Warning: Skipping grid point (308.0, 328.0) because Z probe cannot reach it
+power up + 00:01:04 Warning: Skipping grid point (208.7, 328.0) because Z probe cannot reach it
+power up + 00:01:04 Warning: Skipping grid point (109.3, 328.0) because Z probe cannot reach it
+power up + 00:01:04 Warning: Skipping grid point (10.0, 328.0) because Z probe cannot reach it
+power up + 00:01:04 9 points probed, min error -0.045, max error 0.217, mean 0.072, deviation 0.112
+Height map saved to file heightmap.csv
+power up + 00:02:07 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:06 WiFi reported error: no known networks found
+power up + 00:00:06 WiFi module is idle
+power up + 00:00:08 WiFi reported error: no known networks found
+power up + 00:00:08 WiFi module is idle
+power up + 00:00:15 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:16 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:45:33 Date and time set at power up + 00:00:16
+2021-04-04 18:45:33 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:46:19 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:46:27 Date and time set at power up + 00:00:07
+2021-04-04 18:46:28 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:46:44 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:41 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:01:47 Warning: Skipping grid point (20.0, 321.0) because Z probe cannot reach it
+power up + 00:01:47 Warning: Skipping grid point (100.0, 321.0) because Z probe cannot reach it
+power up + 00:01:47 Warning: Skipping grid point (180.0, 321.0) because Z probe cannot reach it
+power up + 00:01:47 Warning: Skipping grid point (260.0, 321.0) because Z probe cannot reach it
+power up + 00:01:47 16 points probed, min error -0.132, max error 0.360, mean 0.066, deviation 0.134
+Height map saved to file heightmap.csv
+power up + 00:02:27 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:10 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:10 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:50:03 Date and time set at power up + 00:00:10
+2021-04-04 18:50:03 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:51:14 16 points probed, min error -0.160, max error 0.330, mean 0.127, deviation 0.130
+Height map saved to file heightmap.csv
+2021-04-04 18:52:45 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:11 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:12 HTTP client 192.168.2.96 login succeeded
+2021-04-04 18:52:59 Date and time set at power up + 00:00:12
+2021-04-04 18:52:59 HTTP client 192.168.2.2 login succeeded
+2021-04-04 18:54:10 16 points probed, min error -0.027, max error 0.447, mean 0.141, deviation 0.118
+Height map saved to file heightmap.csv
+2021-04-04 18:56:01 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 456C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1186C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:07:33 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:07:33 Auto tune heater 1 completed in 374 sec
+Use M307 H1 to see the result, or M500 to save the result in config-override.g
+power up + 00:22:39 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:22:39 Auto tune heater 0 completed in 761 sec
+Use M307 H0 to see the result, or M500 to save the result in config-override.g
+power up + 00:50:21 Warning: motor phase A may be disconnected reported by driver(s) 3
+power up + 00:50:26 Warning: motor phase A may be disconnected reported by driver(s) 3
+power up + 00:50:30 Warning: motor phase A may be disconnected reported by driver(s) 3
+power up + 00:50:38 Warning: motor phase A may be disconnected reported by driver(s) 3
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.2 login succeeded
+2021-04-04 19:47:17 Date and time set at power up + 00:00:07
+2021-04-04 19:48:30 Started printing file 0:/gcodes/XL-xyzCalibration_cube.gcode
+2021-04-04 19:51:53 Resume state saved
+2021-04-04 19:51:56 Printing paused at X161.4 Y154.1 Z0.4
+2021-04-04 19:52:14 Cancelled printing file 0:/gcodes/XL-xyzCalibration_cube.gcode, print time was 0h 3m
+2021-04-04 19:52:28 HTTP client 192.168.2.96 disconnected
+2021-04-04 19:52:32 HTTP client 192.168.2.96 login succeeded
+2021-04-04 19:52:42 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.96 login succeeded
+2021-04-04 19:52:52 Date and time set at power up + 00:00:07
+2021-04-04 19:52:52 HTTP client 192.168.2.2 login succeeded
+2021-04-04 19:52:57 HTTP client 192.168.2.96 login succeeded
+2021-04-04 19:53:16 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:09 HTTP client 192.168.2.2 login succeeded
+2021-04-04 19:53:27 Date and time set at power up + 00:00:09
+2021-04-04 19:53:27 HTTP client 192.168.2.96 login succeeded
+2021-04-04 19:53:35 Started printing file 0:/gcodes/XL-xyzCalibration_cube.gcode
+2021-04-04 19:57:06 HTTP client 192.168.2.2 disconnected
+2021-04-04 19:57:13 HTTP client 192.168.2.2 login succeeded
+2021-04-04 19:57:25 HTTP client 192.168.2.2 login succeeded
+2021-04-04 19:58:10 Resume state saved
+2021-04-04 19:58:14 Printing paused at X172.3 Y152.7 Z2.0
+2021-04-04 19:58:28 Cancelled printing file 0:/gcodes/XL-xyzCalibration_cube.gcode, print time was 0h 5m
+2021-04-04 20:03:26 Started printing file 0:/gcodes/ABS-xyzCalibration_cube.gcode
+2021-04-04 20:10:21 Resume state saved
+2021-04-04 20:10:24 Printing paused at X153.8 Y170.4 Z5.1
+2021-04-04 20:10:31 Cancelled printing file 0:/gcodes/ABS-xyzCalibration_cube.gcode, print time was 0h 7m
+2021-04-04 20:10:31 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:06 WiFi reported error: no known networks found
+power up + 00:00:06 WiFi module is idle
+power up + 00:00:13 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:13 HTTP client 192.168.2.2 login succeeded
+2021-04-04 20:10:47 Date and time set at power up + 00:00:13
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:10 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:01:41 16 points probed, min error -0.350, max error 0.860, mean 0.162, deviation 0.431
+Height map saved to file heightmap.csv
+power up + 00:07:14 HTTP client 192.168.2.96 login succeeded
+2021-04-07 20:51:39 Date and time set at power up + 00:07:14
+2021-04-07 20:52:03 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:10 HTTP client 192.168.2.96 login succeeded
+2021-04-07 20:52:00 Date and time set at power up + 00:00:10
+2021-04-07 20:52:17 Error: G29: Must home printer before bed probing
+2021-04-07 20:53:43 16 points probed, min error -0.110, max error 0.345, mean 0.124, deviation 0.140
+Height map saved to file heightmap.csv
+2021-04-07 20:53:52 HTTP client 192.168.2.96 login succeeded
+2021-04-07 20:53:58 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:09 HTTP client 192.168.2.96 login succeeded
+2021-04-07 21:00:44 Date and time set at power up + 00:00:09
+2021-04-07 21:01:51 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.96 login succeeded
+2021-04-07 21:02:01 Date and time set at power up + 00:00:07
+2021-04-07 21:02:58 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.96 login succeeded
+2021-04-07 21:03:08 Date and time set at power up + 00:00:07
+2021-04-07 21:04:09 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:10 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:10 HTTP client 192.168.2.96 login succeeded
+2021-04-07 21:04:23 Date and time set at power up + 00:00:10
+2021-04-07 21:06:30 16 points probed, min error -0.130, max error 0.255, mean 0.064, deviation 0.120
+Height map saved to file heightmap.csv
+2021-04-07 21:06:43 HTTP client 192.168.2.96 disconnected
+2021-04-07 21:06:47 HTTP client 192.168.2.96 login succeeded
+2021-04-07 21:08:05 16 points probed, min error -0.168, max error 0.097, mean -0.017, deviation 0.083
+Height map saved to file heightmap.csv
+2021-04-07 21:09:22 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:04 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:08 HTTP client 192.168.2.96 login succeeded
+2021-04-07 21:09:41 Date and time set at power up + 00:00:08
+2021-04-07 21:14:40 HTTP client 192.168.2.2 login succeeded
+2021-04-07 21:22:09 Started printing file 0:/gcodes/Soporte filamento.gcode
+2021-04-07 21:24:07 HTTP client 192.168.2.96 login succeeded
+2021-04-08 11:28:26 Finished printing file 0:/gcodes/Soporte filamento.gcode, print time was 14h 6m
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:11 HTTP client 192.168.2.2 login succeeded
+2021-04-08 14:27:56 Date and time set at power up + 00:00:11
+2021-04-08 15:30:00 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:10 HTTP client 192.168.2.2 login succeeded
+2021-04-08 15:30:14 Date and time set at power up + 00:00:10
+2021-04-08 15:37:16 Started printing file 0:/gcodes/EX-MiniLed.gcode
+2021-04-08 15:40:47 Resume state saved
+2021-04-08 15:40:47 Error: Attempting to extrude with no tool selected.
+2021-04-08 15:40:50 Printing paused at X150.0 Y150.0 Z30.0
+2021-04-08 15:40:50 Cancelled printing file 0:/gcodes/EX-MiniLed.gcode, print time was 0h 4m
+2021-04-08 15:42:04 Started printing file 0:/gcodes/EX-MiniLed.gcode
+2021-04-08 16:29:16 HTTP client 192.168.2.2 login succeeded
+2021-04-08 16:29:31 HTTP client 192.168.2.2 login succeeded
+2021-04-08 16:30:22 HTTP client 192.168.2.2 login succeeded
+2021-04-08 16:39:11 HTTP client 192.168.2.2 login succeeded
+2021-04-08 16:47:34 HTTP client 192.168.2.2 login succeeded
+2021-04-08 21:13:13 Finished printing file 0:/gcodes/EX-MiniLed.gcode, print time was 5h 31m
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:09 HTTP client 192.168.2.2 login succeeded
+2021-04-09 08:31:02 Date and time set at power up + 00:00:09
+2021-04-09 12:02:49 HTTP client 192.168.2.2 login succeeded
+2021-04-09 12:05:18 Started printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode
+2021-04-09 12:11:16 Resume state saved
+2021-04-09 12:11:21 Printing paused at X174.4 Y158.3 Z0.2
+2021-04-09 12:11:21 Error: M25: Printing is already paused!!
+2021-04-09 12:11:31 Printing resumed
+2021-04-09 12:49:11 Resume state saved
+2021-04-09 12:49:15 Printing paused at X204.2 Y158.9 Z1.9
+2021-04-09 12:49:24 Cancelled printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode, print time was 0h 44m
+2021-04-09 12:51:21 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:03 WiFi reported error: no known networks found
+power up + 00:00:03 WiFi module is idle
+power up + 00:00:09 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:09 HTTP client 192.168.2.2 login succeeded
+2021-04-09 12:51:30 Date and time set at power up + 00:00:09
+2021-04-09 12:51:38 Started printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode
+2021-04-09 12:56:49 Resume state saved
+2021-04-09 12:56:53 Printing paused at X125.9 Y201.9 Z0.2
+2021-04-09 12:57:13 Cancelled printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode, print time was 0h 5m
+2021-04-09 12:57:42 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:08 HTTP client 192.168.2.2 login succeeded
+2021-04-09 12:57:52 Date and time set at power up + 00:00:08
+2021-04-09 12:58:03 Started printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode
+2021-04-09 17:23:41 Finished printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode, print time was 4h 26m
+2021-04-09 17:55:22 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:08 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:09 HTTP client 192.168.2.2 login succeeded
+2021-04-09 17:55:32 Date and time set at power up + 00:00:09
+2021-04-09 17:58:33 Started printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode
+2021-04-09 22:27:14 Finished printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode, print time was 4h 29m
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 232C.
+power up + 00:00:01 Warning: Heater 1 appears to be over-powered. If left on at full power, its temperature is predicted to reach 1123C.
+power up + 00:00:01 WiFi module started
+power up + 00:00:07 WiFi module is connected to access point ASUS, IP address 192.168.2.244
+power up + 00:00:07 HTTP client 192.168.2.2 login succeeded
+2021-04-09 23:20:40 Date and time set at power up + 00:00:07
+2021-04-09 23:23:58 Started printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode
+2021-04-10 03:50:11 Finished printing file 0:/gcodes/Sop Mot XY-XL-V2.gcode, print time was 4h 26m
+2021-04-10 13:04:51 HTTP client 192.168.2.2 login succeeded
