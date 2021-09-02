@@ -1,0 +1,75 @@
+; Heaters
+; Heated Bed
+M308 S0 P"bedtemp" Y"thermistor"  T100000 B3950 C0 R4700 A"Bed"      ; Define Sensor0 as the heated bed temperature TRY B4300
+M950 H0 C"bedheat" T0                ; Define Heater0 as the heated bed, bind to Sensor0        ; PID M950 H0 C"bedheat" T0                ; Define Heater0 as the heated bed, bind to Sensor0        ; PID 
+M140 H0                                                   ; map heated bed to heater 0
+M143 H0 P0 S120 A2                                      ; disable temporarily H0 if temp exceeds 120C
+M143 H0 P0 S130 A0                                      ; heater fault H0 if temp exceeds 130C
+M307 H0 B0 S1.00                                     ; disable bang-bang mode for the bed heater and set PWM limit
+M570 H0 P60 T15 S0                                      ; heater fault for 60seg of 15ºC excursion
+
+; Hotend1
+M308 S1 P"e0temp" Y"thermistor" T100000 B4725 C7.06e-8 A"Hotend"        ; Define Sensor1 as Extruder0 temperature
+M950 H1 C"e0heat" T1                ; Define Heater1 as Extruder0 heater, bind to Sensor1
+M143 H1 S275 A2                                         ; disable temporarily H1 if temp exceeds 275C
+M143 H1 S285 A0                                         ; heater fault H1 if temp exceeds 280C
+M307 H1 B0 S1.00                                        ; disable bang-bang mode for heater  and set PWM limit
+M570 H1 P10 T30 S0                                      ; heater fault for 10 seg of 30ºC excursion
+
+
+y cuando lances el pid autotune, desde FW 3.2 puedes lanzarlos M303 T0 S240, en lugar de H1
+
+
+------------
+
+si hay probe, seria
+
+Cambiar el cable de Z2 a E1
+poner dos jumpers en el zocalo liberado
+Mapear los drivers a Z1 y Z2
+definir posicion de husillos
+editar beg.g para que haga alineacion y definir un margen para que cese si ya esta dentro de ese margen
+
+---
+
+lo unico raro que puede pasar es que esten los motores "cambiados" y en lugar de compensar cada vez amplia la diferencia. En ese caso se cambian los cables, o se cambia el mapeo en config
+
+---
+
+https://duet3d.dozuki.com/Wiki/Bed_levelling_using_multiple_independent_Z_motors
+
+---
+
+Macro nivelacion de cama + motores
+G28
+G32
+G29
+
+---
+por cierto, en el M557 ,puedes poner los limites y P5, por ejemplo y metera 5 muestras en cada eje (5x5)
+y no tienes que andar camculando el Sxxx
+M557 X10:320 Y5:320 S45 , cambiar por M557 X10:320 Y5:320 P5
+
+----
+Menu offset duet
+
+G31 P100 X0 Y0 Z0      ; Reset Z trigger height to 0mm
+M290 R0 S0        ; Reset babystepping
+G29 S2          ; Clear bed mesh
+G28          ; Home the effector
+G1 X160 Y160 Z20 F6000      ; Move close to the bed
+G30          ; Probe to find a rough Z 0mm
+
+G1 Z1 F3000      ; Move the nozzle to Z 1mm slowly
+G92 Z3.0        ; Set the Z height to 3mm, allowing moves below 0
+M291 P"Lower the nozzle to until it touches a 0.10mm shim. Click to continue." S2 Z1
+G92 Z0          ; Define this point as 0mm
+G1 Z5        ; Move the probe to Z 5mm
+G30 S-3          ; Probe and set the trigger height
+G1 Z20          ; Raise Z to 20mm
+M291 P"Do you want to save new offset to config-override?. Click to continue." S3
+M500 P31
+M501
+---------
+
+hazlo un macro, que sea, Calcular_Offset.g

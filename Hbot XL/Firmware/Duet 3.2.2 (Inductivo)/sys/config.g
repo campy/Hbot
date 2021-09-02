@@ -23,7 +23,7 @@ M569 P2 S1                                         ; physical drive 2 goes forwa
 M569 P3 S0                                         ; physical drive 3 goes backwards
 M584 X0 Y1 Z2 E3                                   ; set drive mapping
 M350 X16 Y16 Z16 E16 I1                            ; configure microstepping with interpolation
-M92 X80.00 Y80.00 Z400.00 E415.00                  ; set steps per mm
+M92 X80.00 Y80.00 Z400.00 E400.00                  ; set steps per mm
 M566 X500.00 Y500.00 Z60.00 E600.00                ; set maximum instantaneous speed changes (mm/min)
 M203 X18000.00 Y18000.00 Z800.00 E4800.00            ; set maximum speeds (mm/min)
 M201 X2000.00 Y2000.00 Z400.00 E1200.00                ; set accelerations (mm/s^2)
