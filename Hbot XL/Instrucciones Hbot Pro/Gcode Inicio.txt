@@ -1,3 +1,0 @@
-G28 ; home all axes
-G1 Z30 F3000 ;sepra la cama 30mm
-G29 S1 ; aplica el mapa 1 de duet
