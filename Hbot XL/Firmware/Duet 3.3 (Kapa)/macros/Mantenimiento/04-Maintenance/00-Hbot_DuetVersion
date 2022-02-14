@@ -1,0 +1,29 @@
+; =========================================================================================================
+;
+; Display version information
+;
+; =========================================================================================================
+;
+; ===============================
+var modelo = ""
+var probe = ""
+
+if global.model == 1
+	set var.modelo = "XL"
+elif global.model == 2	
+	set var.modelo = "ST"
+; end if
+if global.probetype == 1
+	set var.probe = "IR mini"
+elif global.probetype == 2	
+	set var.probe = "Superpinda"
+elif global.probetype == 3	
+	set var.probe = "Inductivo"
+; end if
+; ===============================
+;
+M291 P"Hbot WiFi-Ethernet by Campy3D" R{"Modelo: " ^ {var.modelo} ^  "  -  " ^ {var.probe}} S1 T5
+;
+; =========================================================================================================
+;
+

@@ -1,0 +1,20 @@
+Peter Chan, [17.06.21 08:45]
+[ Archivo : HBot_Update_RRF2_TO_RRF3.zip ]
+Actualización de RRF2 a RRF3.2.2 en HBot:
+
+1.- Extraer la SD y hacer una copia de seguridad de su contenido.
+2.- Meter el contenido del zip "HBotRRF3.2.2.zip" en la SD, sobreescribir lo que sea necesario.
+3.- Meter la SD En la Duet y encender la Hbot.
+4.- Conectar al DWC de la HBot e ir a "System", pulsar sobre "Upload System Files" y subir el zip "Duet2and3Firmware-3.0.zip" actualizará a RRF 3
+5.- Apagar HBot y sacar SD y meter el "DuetWiFiServer.bin" en la carpeta "sys"
+6.- Meter la SD en la duet y encender la HBot. Desde la pantalla, en la consola:
+  M552 S0
+  M552 S-1
+  M997 S1
+7.- Reiniciar HBot.
+8.- Conectar por DWC e ir a "System", pulsar sobre "Upload System Files" y subir el zip "Duet2and3Firmware-3.2.2.zip" actualizará a RRF 3.2.2
+9.- Una vez reiniciada hacer los pasos normales de calibración, mallado, etc etc...
+10. - DISFRUTAR!!!
+
+Peter Chan, [17.06.21 08:45]
+Buenos días!! He quitado los .bin del HBotRRF3.2.2.zip porque sino se iba a liar...

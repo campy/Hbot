@@ -1,0 +1,15 @@
+M291 P"Pulsa ""OK"" si quieres calibrar el Z offset del extrusor" R"Calibracion Z-Offset" S3
+M291 P"Asegurate que el nozzle esta limpio de restos. Presiona ""Cancel"" si necesitar limpiar el nozzle." R"Calibracion Z-Offset" S3
+M291 P"Homing, Por favor espera" R"Calibracion Z-Offset" S1
+M98 P/sys/homeall.g
+M208 S1 Z-2 ; allow movement below Z0
+M291 P"Confirmacion"
+G1 X164 Y164 Z8 F2000 ; move to center of bed
+M558 P0
+G30 S-2
+M500 ; save results
+M501 ; load new data
+M208 S1 Z0 ; disallow movement below Z0
+G1 Z25 ; drop build plate
+M291 P"Z-offset calibracion completada! " R"Calibracion Z-Offset" S1 T3
+M999

@@ -1,0 +1,5 @@
+;M303 H0 S50					; Tune PID for PLA
+;M303 H0 S80					; Tune PID for ABS-PETG
+
+M307 H0
+M500

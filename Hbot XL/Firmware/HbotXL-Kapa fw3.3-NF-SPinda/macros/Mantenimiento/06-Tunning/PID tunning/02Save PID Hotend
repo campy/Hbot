@@ -1,0 +1,5 @@
+;M303 H1 S200					; Tune PID for PLA
+;M303 H1 S230					; Tune PID for ABS-PETG
+
+M307 H1
+M500

@@ -1,0 +1,18 @@
+; =========================================================================================================
+;
+; clear list of remembered network of WiFi module
+;
+; =========================================================================================================
+;
+M291 P"Delete all remembered networks? Press OK to continue or CANCEL to abort." R"Clear list of remembered networks?" S3
+;
+M552 S-1                            ; disable WiFi module
+G4 S2                               ; wait 2 seconds
+M552 S0                                ; enable WiFi module
+G4 S2                                  ; wait 2 seconds
+M588 S"*"                            ; clear all saved wifi networls
+;
+M291 R"WiFi networks deleted." P"You must add a new WiFi network."
+;
+; =========================================================================================================
+;

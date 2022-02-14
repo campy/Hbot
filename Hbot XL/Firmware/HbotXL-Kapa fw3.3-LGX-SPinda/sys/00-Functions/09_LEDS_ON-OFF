@@ -1,0 +1,4 @@
+if state.gpOut[1].pwm == 1
+   M42 P1 S0
+else
+   M42 P1 S1

@@ -1,0 +1,32 @@
+; =========================================================================================================
+;
+; add network to remembered network list of WiFi module
+;
+;    In line 19 replce NETWORKNAME and PASSWORD with your network credentials.
+;    In config.g remove the semicolon(;) in the line containing the command M552 S1.
+;    If present put a semicolon in front of the line containing the command M552 S2.
+;
+; =========================================================================================================
+;
+M291 R"Add WiFi network? Y/N" P"This will add a WiFi access point." S3 T10
+;
+M552 S-1                            ; disable WiFi module
+G4 S2                               ; wait 2 seconds
+M552 S0                             ; enable WiFi module
+G4 S2                                  ; wait 2 seconds
+;
+; =========================================================================================================
+;
+;
+M587 S"NETWORKNAME" P"PASSWORD"    ; add WiFi SSID to remembered networks list
+;
+;
+; =========================================================================================================
+;
+G4 S2                               ; wait 2 seconds
+M552 S1                             ; start wifi module
+;
+M291 R"WiFi network added." P"Check console for IP address."
+;
+; =========================================================================================================
+;

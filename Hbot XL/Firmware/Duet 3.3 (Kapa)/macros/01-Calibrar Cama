@@ -1,0 +1,6 @@
+M291 P"¿Desea Hacer un mapa de la cama y calibrar los dos motores Z? Presiona ""Cancel"" Para Salir." R"Calibracion Cama y topes" S3
+G28
+M190 S50
+G4 S10
+G28
+G32
